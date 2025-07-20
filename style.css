@@ -82,7 +82,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0px 10%;
-    background-color: #e3a04f;
+    background-image: url("aboutbg\ edit.PNG");
     flex-wrap: wrap;
 }
 
@@ -107,6 +107,7 @@ body {
     max-height: 50vh;
     margin: 1vh 0px;
     border-radius: 12px;
+    border: 1px solid black;
 }
 
 .about-text, .about-text h2 {
@@ -170,11 +171,11 @@ body {
 }
 
 .menu-item {
-    background-color: #ffffff;
+    background-color: #ffffffc1;
     border-radius: 12px;
     overflow: hidden;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -207,8 +208,9 @@ body {
 }
 
 .menu-section {
-    background-color: #742438;
-    border-radius: 20px;
+    background-image: url(offeringsbg.png);
+    background-position: center;
+    border-radius: 12px;
     margin: 40px 10%;
     padding: 40px 5%;
     text-align: center;
@@ -217,7 +219,7 @@ body {
 #menutitle {
     font-size: 2.5rem;
     font-family: 'Chewy', cursive;
-    color: #e3a04f;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 
